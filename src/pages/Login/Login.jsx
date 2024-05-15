@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Login.css'
 import logo from '../../assets/logo.png'
 import { login, signup } from '../../firebase'
-import kyrgyz_video from '../../../public/kyrgyz_video.mp4'
 
 const Login = () => {
 
@@ -23,9 +22,6 @@ const Login = () => {
   return (
     <div className='login'>
 
-      <div className='main-video'>
-        <video className='kyrgyz_video' src={kyrgyz_video} autoPlay loop muted></video>
-      </div>
 
       <img src={logo} className='login-logo' alt="" />
       <div className="login-form">
