@@ -26,12 +26,10 @@ const Navbar = () => {
             <div className="navbar-left">
                 <img src={logo} alt="" />
                 <ul>
-                    <li>Home</li>
-                    <li>TV Shows</li>
                     <li>Movies</li>
-                    <li>New & Popular</li>
-                    <li>My List</li>
-                    <li>Browse by languages</li>
+                    <li>Treilers</li>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
                 </ul>
             </div>
             <div className="navbar-right">
