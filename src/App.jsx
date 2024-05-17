@@ -8,9 +8,10 @@ import { auth } from './firebase';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 import About  from './pages/About/About';
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from "./components/Navbar/Navbar";
 
-const App = () => {
+
+const App = () => {   
 
   const navigate = useNavigate();
 
